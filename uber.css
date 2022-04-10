@@ -1,0 +1,678 @@
+body{
+    margin:0;
+}
+
+
+.main-header{
+    width:100% ;
+    background:rgb(14, 13, 13);
+    height: 64px;
+    display: flex;
+}
+
+.leftheader{
+   width: 50%;
+    height: 40px;
+    padding-top: 13px;
+    display: flex;
+    padding-left: 24px;
+}
+.logo a{
+    text-decoration:none ;
+    color: #fff;
+     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 24px;
+     margin-left: 40px;
+    
+}
+.leftside a{
+    text-decoration: none;
+    color: #fff;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 29px;    
+}
+.leftside{   
+    margin-top: 8px;
+}
+
+.rightheader{
+    width: 50%;
+    padding-left: 135px;
+    display: flex;
+    align-items: center;
+   
+ 
+
+}
+.rightside{
+width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-left: 180px;
+    align-items: center;
+    margin-right: 80px;
+    
+    
+}
+.rightside1 a{
+
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.rightside2 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.rightside3 a{
+    color: white;
+    text-decoration: none;
+}
+.rightside4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 90px;
+    
+}
+
+.rightside4 a{
+text-decoration: none;
+color: black;
+
+
+
+}
+.board{
+
+    padding-top: px;
+}
+.board-1 img{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+
+.board-2{
+    position: absolute;
+    width: 500px;
+    height:500px ;
+    background: rgb(253, 253, 253);
+    margin-left: 60px;
+    margin-top: 60px;
+    
+    
+
+}
+.boardin2{
+    width: 500px;
+    height:90px;
+    color: rgb(240, 247, 247);
+    border-bottom: solid;
+   display: flex;
+   justify-content: space-evenly;
+   
+
+}
+.boardin2{
+width: 100%;
+background: rgb(250, 252, 246)
+
+
+}
+.split1{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: outset;
+ 
+}
+.split1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.split1 img{
+    color: rgb(0, 0, 0);
+}
+.split2{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.split2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.split2 img{
+    width: 28px;
+    padding-left: 25px;
+}
+.boardcontent{
+    display: flex;
+justify-content: center;
+
+}
+.boardcontent1 h1{
+    padding-top: 15px;
+   
+    font-size: 45px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.boardlogin1{
+
+    background-color: rgb(247, 243, 243);
+    width: 395px;
+    margin-left: 52px;
+}
+.boardlogin1 input{
+    border: transparent;
+    width: 100%;
+    background-color: rgb(238, 248, 245);
+    height: 50px;
+    padding-left: 10px;
+font-size: large;
+}
+.boardlogin2{
+   
+    background-color: rgb(245, 240, 240);
+    width: 395px;
+    margin-left: 52px;
+
+}
+.reqbtn button{
+    margin-left: 52px;
+    padding-top: px;
+    margin-top: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: black;
+    border: none;
+width: 130px;
+font-size: 16px;
+font-weight: 600;
+}
+.schbtn button{
+    margin-left: 52px;
+    padding-top: px;
+    margin-top: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 196, 196);
+    border: none;
+width: 150px;
+font-size: 16px;
+font-weight: 600;
+}
+.boardbtn{
+display: flex;
+
+}
+.content2{
+    width: 100%;
+    
+}
+.content2 img{
+    margin-top: 650px;
+    width: 100%;
+    height: 380px;
+    
+}
+
+
+
+.content2text {
+  color: blue;
+    font-size: larger;
+  
+}
+.content3{
+
+    color: rgb(15, 15, 15);
+    font-size: large;
+    position: absolute;
+    margin-top: 700px;
+    
+    
+}
+.content3 h1{
+    
+    padding-left: 70px;
+    color: black;
+
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:500;
+
+}
+.content3 p1{
+    padding-left: 70px;
+    font-size: 16px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content3 button{
+    border: none;
+    padding-left: 7px;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    margin-left: 70px;
+    font-size: 20px;
+   
+}
+.content4{
+    width: 100%;
+     height: 375px;
+  
+    
+    display: flex;
+    margin-top: 50px ;
+   
+}
+.content5{
+    width: 200px;
+    height: 250px;
+}
+.A{
+    width: 50%;
+  
+    
+    padding-left: 65px;
+
+}
+.A img{
+    
+}
+.B{
+    width: 50%;
+    
+
+}
+.B h1{
+    
+    font-size: 52px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 65px;
+    padding-top: 20px;
+    
+
+}
+.B p1{
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 70px;
+}
+.B button{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    border: none;
+    font-size:large ;
+}
+.content5{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 120px;
+    height:372px;
+}
+
+.con5A{
+    width: 50%;
+    
+}
+
+.con5A h1{
+    font-size: 52px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 70px;
+    
+}
+.con5A p1{
+padding-left: 75px;
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.con5A button{
+    margin-left: 75px;
+    margin-top: 20px;
+    border: none;
+    font-size:large ;
+
+}
+.con5B{
+    width: 50%;
+   
+}
+.con5B img{
+    padding-left: px;
+}
+
+.content6{
+    
+    height: 100px;
+    display: flex;
+
+}
+.con6A{
+    
+    width:60%;
+    height: 100px;
+    
+}
+.con6A h1{
+    padding-top: 40px;
+    padding-left: 75px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.con6B{
+    
+    width: 40%;
+    height: 100px;
+}
+.content7{
+    
+    height:372px;
+    margin: 30px;
+    display: flex;
+
+
+}
+.con7A{
+    height:372px;
+    
+    width:50%;
+}
+
+.con7A img{
+    padding-left: 50px;
+}
+
+.con7B{
+    height:372px;
+
+    width:50%;
+}
+.con7B img{
+
+}
+
+.content8{
+
+  
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+
+}
+.con8A{
+    width:50%;
+    padding-left: 75px;
+    
+}
+
+.con8A h1{
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.con8A p1{
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.con8B{
+    width:50%;
+   
+    margin-right: 70px;
+}
+.con8B h1{
+   
+    font-size: 20px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.con8B p1{
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.content9{
+
+    width:100%;
+    color: black;
+    height:40px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.con9A a{
+    margin-left: 75px;
+    width:25%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.con9A1 a{
+
+    margin-left: 20px;
+    width:25%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.con9B{
+    width:50%;
+}
+.con9B a{
+    margin-left: 160px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+
+}
+.content10{
+    
+    height: 50px;
+}
+.content10 h1{
+    padding-left: 70px;
+color: black;
+font-size: 36px;
+font-weight: 500;
+font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.content11{
+width:100%;
+height: 200px;
+
+display: flex;
+
+}
+
+.con11A{
+    width:50%;
+    
+    
+    display: flex;
+    
+}
+.con11A1 img{
+padding-left: 70px;
+padding-top: 25px;
+
+}
+.con11A2{
+    padding-top:80px;
+}
+.con11A2 a{
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    height: 100px;
+   
+
+
+}
+
+
+.con11B{
+    width:50%;
+display: flex;
+}
+.con11B1 img{
+    padding-top: 25px;
+    
+}
+.con11B2 a{
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+.footer{
+    background-color: black;
+    width:100%;
+    height: 700px;
+
+}
+.footer1 h1{
+    color: #fff;
+    width: 100%;
+    height: 20px;
+    font-weight: 200;
+    padding-top: 100px;
+    padding-left: 120px;
+
+}
+.footer1 a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 120px;
+}
+.footer2{
+margin-top: 80px;
+display: flex;
+justify-content: space-evenly;
+
+}
+.footer2A h1{
+    color: #fff;
+
+
+font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.footer2AA{
+    display: flex;
+    flex-direction: column;
+}
+.footer2AA a{
+    text-decoration: none;
+    
+    color: #fff;
+}
+
+.footer2B{
+    color: #fff;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    padding-left: 90px;
+}
+.footer2BB{
+    display: flex;
+    flex-direction: column;
+}
+.footer2BB a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer2C h1{
+    color: #fff;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  
+}
+.footer2CC{
+    display: flex;
+    flex-direction: column;
+}
+.footer2CC a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer2D h1{
+    color: #fff;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.footer2DD a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.foot{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+display: flex;
+
+}
+.footA{
+width:50%;
+
+display: flex;
+justify-content:space-around;
+
+}
+.footA i{
+    color: #fff;
+    padding-left: 60px;
+    
+}
+.footA p1{
+    color: #fff;
+}
+
+.footB{
+    width:50%;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.footB a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 60px;
+
+    font-size: small;
+}
+
